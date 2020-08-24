@@ -95,6 +95,7 @@ private:
 
 int main() {
 	std::cout << "\n** MULTI CELL FSM **\n" << std::endl;
+	std::cout << "just press enter" << std::endl;
 	std::cin.get();
 
 	Cell2 lefty{ 'L' };
@@ -109,6 +110,7 @@ int main() {
 
 	for (int i = 0; i < lv.size(); i++) {
 		std::cout << "\n\n###### time " << i << std::endl;
+		std::cout << "just press enter" << std::endl;
 		std::cin.get();
 
 		lefty.getX(lv[i]);
